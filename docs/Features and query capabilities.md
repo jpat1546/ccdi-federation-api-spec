@@ -1,4 +1,5 @@
 # CCDI Federation Open API v1.0.0 Query Functionality
+---
 
 ## Subjects
 
@@ -81,6 +82,38 @@ Quickly fetch detailed information about a specific organization using its uniqu
 ### API Implementation Information:
 Get detailed information about the API implementation for better integration and usage.
 
+
+## Filter Support Table
+
+| Filter                                   | PCDC | CHOP | St Jude | UCSC |
+|------------------------------------------|---------|------|---------|------|
+| **Participant**                          |         |      |         |      |
+| Sex                                      | ✔️      | ✔️    | ✔️       | ✔️    |
+| Race                                     | ✔️      | ✔️    | ✔️       | ✔️    |
+| Ethnicity                                | ✔️      | ✔️    | ✔️       | ✔️    |
+| Disease Phase                            | ✔️      | ✔️    | ✔️       | ✔️    |
+| Vital Status                             | ✔️      | ✔️    | ✔️       | ✔️    |
+| ICD-O Morphology Code & Term             | ✔️      | ✔️    | ✔️       | ✔️    |
+| Participant ID                           | ✔️      | ✔️    | ✔️       | ✔️    |
+| **Sample**                               |         |      |         |      |
+| Sample Tumor Status                      |       | ✔️    | ✔️       | ✔️    |
+| Tumor Classification                     |       | ✔️    | ✔️       | ✔️    |
+| Age at Vital Status                      |       | ✔️    | ✔️       | ✔️    |
+| Age at Diagnosis                         |       | ✔️    | ✔️       | ✔️    |
+| Participant Age at Collection            |      | ✔️    | ✔️       | ✔️    |
+| Library Strategy                         |      | ✔️    | ✔️       | ✔️    |
+| Preservation Method                      |       | ✔️    | ✔️       | ✔️    |
+| Disease Diagnosis (partially Implemented)|       |     |       | ✔️    |
+| **Study**                                |         |      |         |      |
+| Study Short Title                        |    ✔️ depositions?   | ✔️ depositions?   | ✔️ depositions?       | ✔️ depositions?    |
+| Study Name                               |   ✔️ depositions?   | ✔️ depositions?    | ✔️ depositions?       | ✔️ depositions?    |
+| dbGaP phs Accession                      |    ✔️ depositions?  | ✔️ depositions?    | ✔️ depositions?       | ✔️ depositions?    |
+| Institution                              |   ✔️ depositions?   | ✔️ depositions?    | ✔️ depositions?       |✔️ depositions?    |
+| **File**                                 |         |      |         |      |
+| File Location (Link/Gateway)             |       | ✔️    | ✔️       | ✔️    |
+| File Description                         |      | ✔️    | ✔️       | ✔️    |
+| File Size                                |      | ✔️    | ✔️       | ✔️    |
+| Md5sum                                   |       | ✔️    | ✔️       | ✔️    |
 ---
 The v1.0.0 release of the CCDI Data federation API has been designed to be fully functional, providing useful and accessible information to users. For detailed information on the limitations of this version, please visit (link to limitations doc in this folder)
 
