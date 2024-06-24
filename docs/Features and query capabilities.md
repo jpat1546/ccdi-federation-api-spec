@@ -87,7 +87,7 @@ Get detailed information about the API implementation for better integration and
 
 | Filter                                   | PCDC | CHOP | St Jude | UCSC |
 |------------------------------------------|---------|------|---------|------|
-| **Participant**                          |         |      |         |      |
+| **Subject**                          |         |      |         |      |
 | Sex                                      | ✔️      | ✔️    | ✔️       | ✔️    |
 | Race                                     | ✔️      | ✔️    | ✔️       | ✔️    |
 | Ethnicity                                | ✔️      | ✔️    | ✔️       | ✔️    |
