@@ -111,9 +111,9 @@ Get detailed information about the API implementation for better integration and
 | Institution                              |   ✔️ depositions?   | ✔️ depositions?    | ✔️ depositions?       |✔️ depositions?    |
 | **File**                                 |         |      |         |      |
 | File Location (Link/Gateway)             |       | ✔️    | ✔️       | ✔️    |
-| File Description                         |      | ✔️    | ✔️       | ✔️    |
-| File Size                                |      | ✔️    | ✔️       | ✔️    |
-| Md5sum                                   |       | ✔️    | ✔️       | ✔️    |
+| File Description                         |      | ✔️    | ✔️       |     |
+| File Size                                |      | ✔️    | ✔️       |     |
+| Md5sum                                   |       | ✔️    | ✔️       |     |
 ---
 The v1.0.0 release of the CCDI Data federation API has been designed to be fully functional, providing useful and accessible information to users. For detailed information on the limitations of this version, please visit (link to limitations doc in this folder)
 
