@@ -91,12 +91,12 @@ Get detailed information about the API implementation for better integration and
 | Sex                                      | ✔️      | ✔️    | ✔️       | ✔️    |
 | Race                                     | ✔️      | ✔️    | ✔️       | ✔️    |
 | Ethnicity                                | ✔️      | ✔️    | ✔️       | ✔️    |
-| Disease Phase                            | ✔️      | ✔️    | ✔️       | ✔️    |
 | Vital Status                             | ✔️      | ✔️    | ✔️       | ✔️    |
 | ICD-O Morphology Code & Term             | ✔️      | ✔️    | ✔️       | ✔️    |
 | Participant ID                           | ✔️      | ✔️    | ✔️       | ✔️    |
 | **Sample**                               |         |      |         |      |
 | Sample Tumor Status                      |       | ✔️    | ✔️       | ✔️    |
+| Disease Phase                            | 
 | Tumor Classification                     |       | ✔️    | ✔️       | ✔️    |
 | Age at Vital Status                      |       | ✔️    | ✔️       | ✔️    |
 | Age at Diagnosis                         |       | ✔️    | ✔️       | ✔️    |
