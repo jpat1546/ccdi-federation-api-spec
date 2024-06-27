@@ -1,4 +1,4 @@
-# CCDI Federation Open API v1.0.0 Query Functionality
+# CCDI Federation Open API v1.0.0 Filtered Search Functionality
 ---
 
 ## Subjects
