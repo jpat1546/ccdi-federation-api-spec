@@ -1,5 +1,6 @@
-# CCDI Federation Open API v1.0.0 Filtered Search Functionality
+# CCDI Federation Data V1.0.0 Resource User Guide
 ---
+This User Guide provides information to understand the Data Federation Resource application programming interface (API) available to users.
 
 ## Subjects
 
@@ -82,39 +83,6 @@ Quickly fetch detailed information about a specific organization using its uniqu
 ### API Implementation Information:
 Get detailed information about the API implementation for better integration and usage.
 
-
-## Filter Support Table
-
-| Filter                                   | CHOP | PCDC | St Jude | UCSC |
-|------------------------------------------|---------|------|---------|------|
-| **Subject**                          |         |      |         |      |
-| Sex                                      | ✔️      | ✔️    | ✔️       | ✔️    |
-| Race                                     | ✔️      | ✔️    | ✔️       | ✔️    |
-| Ethnicity                                | ✔️      | ✔️    | ✔️       | ✔️    |
-| Vital Status                             | ✔️      | ✔️    | ✔️       | ✔️    |
-| Identifiers                              | ✔️      | ✔️    | ✔️       | ✔️    |
-| Age at Vital Status                      |       |    | ✔️       | ✔️    |
-| Depositions                              |  ✔️     |     | ✔️       | ✔️    |
-
-| **Sample**                               |       |      |         |      |
-| Tissue Type                              |       |      | ✔️       | ✔️    |
-| Tumor Classification                     |       |     | ✔️       | ✔️    |
-| Age at Diagnosis                         |       |     | ✔️       | ✔️    |
-| Age at Collection                        |       |     | ✔️       | ✔️    |
-| Library Strategy                         |      | ✔️    | ✔️       | ✔️    |
-| Preservation Method                      |       | ✔️    | ✔️       | ✔️    |
-| Disease Diagnosis (partially Implemented)|       |     |       | ✔️    |
-
-| **Study**                                |         |      |         |      |
-| Study Short Title                        |    ✔️ depositions?   | ✔️ depositions?   | ✔️ depositions?       | ✔️ depositions?    |
-| Study Name                               |   ✔️ depositions?   | ✔️ depositions?    | ✔️ depositions?       | ✔️ depositions?    |
-| dbGaP phs Accession                      |    ✔️ depositions?  | ✔️ depositions?    | ✔️ depositions?       | ✔️ depositions?    |
-| Institution                              |   ✔️ depositions?   | ✔️ depositions?    | ✔️ depositions?       |✔️ depositions?    |
-| **File**                                 |         |      |         |      |
-| File Location (Link/Gateway)             |       | ✔️    | ✔️       | ✔️    |
-| File Description                         |      | ✔️    | ✔️       |     |
-| File Size                                |      | ✔️    | ✔️       |     |
-| Md5sum                                   |       | ✔️    | ✔️       |     |
 ---
 The v1.0.0 release of the CCDI Data federation API has been designed to be fully functional, providing useful and accessible information to users. For detailed information on the limitations of this version, please visit (link to limitations doc in this folder)
 
