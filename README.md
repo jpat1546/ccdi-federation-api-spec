@@ -1,7 +1,7 @@
 <p align="center">
 <p align="center">
   <h1 align="center">
-  CCDI Data Federation API Documents
+  CCDI Data Federation API
   </h1>
 </p>
 
