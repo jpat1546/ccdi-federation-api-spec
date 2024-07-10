@@ -23,7 +23,7 @@ Researchers can search for deidentified individual-level data through the API, w
 
 To access the CCDI’s data federation API, please [click here](https://cbiit.github.io/ccdi-federation-api/).
 
-To access specific resource nodes please [click here](https://cbiit.github.io/ccdi-federation-api/).
+To access specific resource nodes, please [click here](https://cbiit.github.io/ccdi-federation-api/).
 
 The API does not deliver files. Rather, it provides an open-access subset of the metadata (e.g., demographics) that match a user’s search criteria and provides the location of the complete data set. The data are accessible according to the policies at each contributing resource.
  
@@ -37,6 +37,6 @@ The CCDI Data Federation Resource offers a suite of resources including the Open
 ## Contribute to CCDI Data Federation Resource
 We invite the community to join us in empowering research through CCDI data federation. Organizations that implement CCDI’s data federation API harmonize data according to CCDI standards to ensure data are searchable.
 
-Details can be found on the CCDI Data Federation Resource Wiki page (LINK)
+Details can be found on the CCDI Data Federation Resource [Wiki page](https://github.com/jpat1546/ccdi-federation-api-spec/wiki)
 
 <a href="mailto:ncichildhoodcancerdatainitiative@mail.nih.gov" target="_blank" rel="noopener noreferrer">Contact us</a> with questions related to CCDI federated data or accessing the CCDI Data Ecosystem.
