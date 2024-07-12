@@ -21,7 +21,7 @@ The Childhood Cancer Data Initiative (CCDI) is piloting data federation with Kid
 ## Data Access
 Researchers can search for deidentified individual-level data through the API, which provides metadata that aids in the creation of virtual cohorts across multiple data types from participating resources by accessing CCDI's federation API.
 
-To access the CCDI’s data federation API, please [click here](https://cbiit.github.io/ccdi-federation-api/).
+To access the CCDI’s data federation API, please [click here](https://cbiit.github.io/ccdi-federation-api-aggregation/).
 
 To access specific resource nodes, please [click here](https://cbiit.github.io/ccdi-federation-api/).
 
@@ -37,6 +37,6 @@ The CCDI Data Federation Resource offers a suite of resources including the Open
 ## Contribute to CCDI Data Federation Resource
 We invite the community to join us in empowering research through CCDI data federation. Organizations that implement CCDI’s data federation API harmonize data according to CCDI standards to ensure data are searchable.
 
-Details can be found on the CCDI Data Federation Resource [Wiki page](https://github.com/jpat1546/ccdi-federation-api-spec/wiki)
+Details can be found on the CCDI Data Federation Resource [Wiki page](https://github.com/CBIIT/ccdi-federation-api-spec/wiki)
 
 <a href="mailto:ncichildhoodcancerdatainitiative@mail.nih.gov" target="_blank" rel="noopener noreferrer">Contact us</a> with questions related to CCDI federated data or accessing the CCDI Data Ecosystem.
