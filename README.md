@@ -9,7 +9,7 @@
 <p align="center">
     An API for querying federated pediatric cancer data from the broader community.
     <br />
-    <a href="https://cbiit.github.io/ccdi-federation-api/"><strong> Access the Data Federation Resource API »</strong></a>
+    <a href="https://cbiit.github.io/ccdi-federation-api-aggregation/"><strong> Access the Data Federation Resource API »</strong></a>
       <br /> <a href="https://cbiit.github.io/ccdi-federation-api/"><strong>Access Individual Nodes »</strong></a>
 <br>
 
@@ -21,9 +21,9 @@ The Childhood Cancer Data Initiative (CCDI) is piloting data federation with the
 ## Data Access
 Researchers can search for deidentified individual-level data through the API, which provides metadata that aids in the creation of virtual cohorts across multiple data types from participating resources by accessing CCDI's federation API.
 
-- [Access the CCDI Data Federation API](https://cbiit.github.io/ccdi-federation-api-aggregation/)
+- [Access the CCDI Data Federation Resource API](https://cbiit.github.io/ccdi-federation-api-aggregation/)
 
-- [Access Specific Resource Nodes](https://cbiit.github.io/ccdi-federation-api/).
+- [Access Specific Resource Nodes](https://cbiit.github.io/ccdi-federation-api/)
 
 The API does not deliver files. Instead, it provides an open-access subset of the metadata (e.g., demographics) that match a user’s search criteria and indicates the location of the complete data set. The data are accessible according to the policies at each contributing resource.
  
