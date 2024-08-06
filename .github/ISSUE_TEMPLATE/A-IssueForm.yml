@@ -1,0 +1,36 @@
+name: Join CCDI Federation Resource Request
+description: Submit a request to become a member of CCDI Federation Resource.
+title: "[Request] <here an institution to join the CCDI Federation Resource>"
+labels: ["Join", "Request"]
+assignees:
+  - asafieva
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this form!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: More Information
+      description: |
+        Links? References? Anything that will give us more context about your request.
+
+        Tip: You can attach files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
+  - type: checkboxes
+    id: policies
+    attributes:
+      label: Policies
+      description: By submitting this issue, you agree to follow [Policies](https://www.cancer.gov/policies). 
+      options:
+        - label: I agree to follow this project's Policies
+          required: true
