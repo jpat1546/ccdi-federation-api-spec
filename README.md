@@ -34,6 +34,8 @@ The API does not deliver files. Instead, it provides an open-access subset of th
 ## Additional Available Resources
 The CCDI Data Federation Resource offers a suite of resources including the [OpenAPI Specification](https://cbiit.github.io/ccdi-federation-api-aggregation/swagger-aggr.yml), [Data Federation Resource Wiki](https://github.com/CBIIT/ccdi-federation-api-spec/wiki), and additional documentation here on the CCDI Data Federation Resource GitHub Repository. You may also get assistance or [report an issue](https://github.com/CBIIT/ccdi-federation-api-spec/issues/new/choose). 
 
+To access CCDI Data Federation Participating Nodes API GitHub repository, follow this link: [CCDI Data Federation: Participating Nodes API](https://github.com/CBIIT/ccdi-federation-api).
+
 ## Contribute to CCDI Data Federation Resource
 We invite the community to join us in empowering research through CCDI data federation. Organizations that implement CCDI’s data federation API harmonize data according to CCDI standards to ensure data are searchable.
 
