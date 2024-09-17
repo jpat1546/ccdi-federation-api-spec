@@ -1,6 +1,6 @@
 name: Join CCDI Federation Resource Request
 description: Submit a request to become a member of CCDI Federation Resource.
-title: "[Request] <here an institution to join the CCDI Federation Resource>"
+title: "[Request] Request to join the CCDI Federation Resource: <input your institution name here>"
 labels: ["Join", "Request"]
 assignees:
   - asafieva
@@ -32,5 +32,5 @@ body:
       label: Policies
       description: By submitting this issue, you agree to follow [Policies](https://www.cancer.gov/policies). 
       options:
-        - label: I agree to follow this project's Policies
+        - label: I agree to follow this project's [Policies](https://www.cancer.gov/policies).
           required: true
