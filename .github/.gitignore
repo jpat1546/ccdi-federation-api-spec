@@ -1,0 +1,9 @@
+/target/
+/data/
+/log/
+.DS_Store
+*.DS_Store
+**.DS_Store
+.settings
+.vscode
+.eslintrc.js
