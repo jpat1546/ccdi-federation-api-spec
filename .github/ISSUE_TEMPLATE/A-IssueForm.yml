@@ -22,13 +22,16 @@ body:
       label: More Information
       description: |
         Links? References? Anything that will give us more context about your request.
-
         Tip: You can attach files by clicking this area to highlight it and then dragging files in.
-    validations:
-      required: false
-    attributes:
-      label: Policies
-      description: |
+        Policies:
         By submitting this issue, you agree to follow [NCI Policies](https://www.cancer.gov/policies)
     validations:
       required: false
+  - type: checkboxes
+    id: policies
+    attributes:
+      label: Policies
+      description: By submitting this issue, you agree to follow [Policies](https://www.cancer.gov/policies). 
+      options:
+        - label: I agree to follow this project's [Policies](https://www.cancer.gov/policies).
+          required: true
