@@ -23,8 +23,6 @@ body:
       description: |
         Links? References? Anything that will give us more context about your request.
         Tip: You can attach files by clicking this area to highlight it and then dragging files in.
-        Policies:
-        By submitting this issue, you agree to follow [NCI Policies](https://www.cancer.gov/policies)
     validations:
       required: false
   - type: markdown
