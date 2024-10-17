@@ -1,6 +1,6 @@
 name: Join CCDI Federation Resource Request
 description: Submit a request to become a member of CCDI Federation Resource.
-title: "[Request] Request to join the CCDI Federation Resource: <input your institution name here>"
+title: "Request to join the CCDI Federation Resource: <input your institution name here>"
 labels: ["Join", "Request"]
 assignees:
   - asafieva
