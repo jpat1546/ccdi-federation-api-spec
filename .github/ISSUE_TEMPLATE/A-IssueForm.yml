@@ -29,6 +29,13 @@ body:
         By submitting this issue, you agree to follow [NCI Policies](https://www.cancer.gov/policies)
     validations:
       required: false
+ - type: textarea
+    attributes:
+      label: Policies
+      description: |
+        By submitting this issue, you agree to follow [NCI Policies](https://www.cancer.gov/policies)
+    validations:
+      required: false
   - type: checkboxes
     id: policies
     attributes:
