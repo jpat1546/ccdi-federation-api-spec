@@ -8,50 +8,30 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this issue form!
+        Thanks for taking the time to fill out this form!
   - type: input
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
+      description: How can we get in touch with you?
       placeholder: ex. email@example.com
     validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: More Information
+      description: |
+        Links? References? Anything that will give us more context about your request.
+        Tip: You can attach files by clicking this area to highlight it and then dragging files in.
+        Policies:
+        By submitting this issue, you agree to follow [NCI Policies](https://www.cancer.gov/policies)
+    validations:
       required: false
-  - type: textarea
-    id: what-happened
+  - type: checkboxes
+    id: policies
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Policies
+      description: By submitting this issue, you agree to follow [Policies](https://www.cancer.gov/policies). 
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: markdown
-    attributes:
-      value: By submitting this issue, you agree to follow [NCI Policies](https://www.cancer.gov/policies)
+        - label: I agree to follow this project's [Policies](https://www.cancer.gov/policies).
+          required: true
