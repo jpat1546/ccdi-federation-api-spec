@@ -36,11 +36,3 @@ body:
         By submitting this issue, you agree to follow [NCI Policies](https://www.cancer.gov/policies)
     validations:
       required: false
-  - type: checkboxes
-    id: policies
-    attributes:
-      label: Policies
-      description: By submitting this issue, you agree to follow [Policies](https://www.cancer.gov/policies). 
-      options:
-        - label: I agree to follow this project's [Policies](https://www.cancer.gov/policies).
-          required: true
