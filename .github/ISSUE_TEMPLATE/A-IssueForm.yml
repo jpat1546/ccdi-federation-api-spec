@@ -26,7 +26,6 @@ body:
         Tip: You can attach files by clicking this area to highlight it and then dragging files in.
     validations:
       required: false
- - type: textarea
     attributes:
       label: Policies
       description: |
