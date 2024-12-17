@@ -28,4 +28,4 @@ body:
   - type: markdown
     id: policies
     attributes:
-      value: By submitting this issue, you agree to follow [Policies](https://www.cancer.gov/policies). 
+      value: By submitting this issue, you agree to follow [NCI Policies](https://www.cancer.gov/policies). 
